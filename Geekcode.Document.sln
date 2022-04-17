@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geekcode.Document", "SRC\Geekcode.Document\Geekcode.Document.csproj", "{46CA24C7-81CC-4998-8350-28543FD9CD1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geekcode.Document.WebApp", "SRC\Geekcode.Document.WebApp\Geekcode.Document.WebApp.csproj", "{71F6DD94-B31B-446D-AE2C-3C2F3D7DAEF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geekcode.Document.WebApi", "SRC\Geekcode.Document.WebApi\Geekcode.Document.WebApi.csproj", "{35DF2908-4367-4B29-9F83-50C5172F2256}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRC", "SRC", "{C76AD471-397F-48E9-B782-FE0DF2B82E82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46CA24C7-81CC-4998-8350-28543FD9CD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CA24C7-81CC-4998-8350-28543FD9CD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CA24C7-81CC-4998-8350-28543FD9CD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46CA24C7-81CC-4998-8350-28543FD9CD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F6DD94-B31B-446D-AE2C-3C2F3D7DAEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F6DD94-B31B-446D-AE2C-3C2F3D7DAEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F6DD94-B31B-446D-AE2C-3C2F3D7DAEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F6DD94-B31B-446D-AE2C-3C2F3D7DAEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DF2908-4367-4B29-9F83-50C5172F2256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DF2908-4367-4B29-9F83-50C5172F2256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DF2908-4367-4B29-9F83-50C5172F2256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DF2908-4367-4B29-9F83-50C5172F2256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46CA24C7-81CC-4998-8350-28543FD9CD1D} = {C76AD471-397F-48E9-B782-FE0DF2B82E82}
+		{35DF2908-4367-4B29-9F83-50C5172F2256} = {C76AD471-397F-48E9-B782-FE0DF2B82E82}
+		{71F6DD94-B31B-446D-AE2C-3C2F3D7DAEF5} = {C76AD471-397F-48E9-B782-FE0DF2B82E82}
+	EndGlobalSection
+EndGlobal
